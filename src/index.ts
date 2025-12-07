@@ -7,8 +7,8 @@ app.get("/", (req, res) => {
     res.send("Hello Typescript World!, Something is changed")
 })
 
-app.get("/health", (req, res) => {
-    res.send("OK")
+app.get("/new", (req, res) => {
+    res.send("new route added")
 })
 
 app.listen(port, () => {
